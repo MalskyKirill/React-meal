@@ -1,19 +1,18 @@
+import {Link} from 'react-router-dom';
+
 function Header() {
   return (
     <nav className='#43a047 green darken-1'>
       <div className='nav-wrapper'>
-        <a href='/' className='brand-logo'>
+        <Link to='/' className='brand-logo'>
           React shop
-        </a>
+        </Link>
         <ul id='nav-mobile' className='right hide-on-med-and-down'>
           <li>
-            <a
-              href='https://malskykirill.github.io/react-shop/'
-              target='_blank'
-              rel="noreferrer"
-            >
-              Repo
-            </a>
+            <Link to='/contacts'>Contacts</Link>
+          </li>
+          <li>
+            <Link to='/about'>About</Link>
           </li>
         </ul>
       </div>
