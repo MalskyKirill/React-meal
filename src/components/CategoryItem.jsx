@@ -16,7 +16,7 @@ function CategoryItem(prop) {
         </p>
       </div>
       <div className="card-action">
-        <Link to={`/category/${idCategory}`} className="btn">Whatch category</Link>
+        <Link to={`/category/${strCategory}`} className="btn">Whatch category</Link>
       </div>
     </div>
   );
