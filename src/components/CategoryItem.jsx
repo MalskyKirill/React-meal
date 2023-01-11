@@ -1,15 +1,15 @@
 import {Link} from 'react-router-dom';
 
 function CategoryItem(prop) {
-  const { idCategory, strCategory, strCategoryThumb, strCategoryDescription } =
+  const { strCategory, strCategoryThumb, strCategoryDescription } =
     prop;
 
   return (
-    <div class='card'>
-      <div class='card-image'>
+    <div classname='card'>
+      <div classname='card-image'>
         <img src={strCategoryThumb} alt={strCategory} />
       </div>
-      <div class='card-content'>
+      <div classname='card-content'>
         <span classname='card-title'>{strCategory}</span>
         <p>
           {strCategoryDescription.slice(0, 60)}...
