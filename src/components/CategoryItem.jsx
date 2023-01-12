@@ -5,12 +5,12 @@ function CategoryItem(prop) {
     prop;
 
   return (
-    <div classname='card'>
-      <div classname='card-image'>
+    <div className='card'>
+      <div className='card-image'>
         <img src={strCategoryThumb} alt={strCategory} />
       </div>
-      <div classname='card-content'>
-        <span classname='card-title'>{strCategory}</span>
+      <div className='card-content'>
+        <span className='card-title'>{strCategory}</span>
         <p>
           {strCategoryDescription.slice(0, 60)}...
         </p>

@@ -4,12 +4,12 @@ function Meal(props) {
   const { strMeal, strMealThumb, idMeal } = props;
 
   return (
-    <div class='card'>
-      <div class='card-image'>
+    <div className='card'>
+      <div className='card-image'>
         <img src={strMealThumb} alt={strMeal} />
       </div>
-      <div class='card-content'>
-        <span classname='card-title'>{strMeal}</span>
+      <div className='card-content'>
+        <span className='card-title'>{strMeal}</span>
       </div>
       <div className='card-action'>
         <Link to={`/meal/${idMeal}`} className='btn'>
