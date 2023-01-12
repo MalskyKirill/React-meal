@@ -12,7 +12,7 @@ import {Recipe} from './pages/Recipe'
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/React-meal'>
         <Header />
         <main className='container content'>
           <Switch>
